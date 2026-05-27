@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Still Pages — Grounding</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="grounding.css" />
+</head>
+<body>
+  <div class="grain"></div>
+
+  <main>
+
+    <!-- ── Selection state ── -->
+    <div id="selection-view">
+      <header>
+        <p class="eyebrow">a moment to return to yourself</p>
+        <h1>Grounding</h1>
+        <p class="subtitle">Choose a practice, or let the page decide.</p>
+      </header>
+
+      <section class="controls">
+        <div class="select-wrapper">
+          <select id="exercise-select" aria-label="Select a grounding exercise">
+            <option value="random">— surprise me —</option>
+          </select>
+          <span class="select-arrow">↓</span>
+        </div>
+
+        <div class="audio-toggle">
+          <label class="toggle-label" for="audio-toggle">
+            <input type="checkbox" id="audio-toggle" />
+            <span class="toggle-track"></span>
+            <span class="toggle-text">gentle tone between steps</span>
+          </label>
+        </div>
+
+        <button id="begin-btn" class="btn-primary">Begin</button>
+      </section>
+    </div>
+
+    <!-- ── Exercise state ── -->
+    <div id="exercise-view" style="display:none;">
+      <div class="exercise-header">
+        <p class="eyebrow" id="exercise-category"></p>
+        <h2 id="exercise-title"></h2>
+        <p class="subtitle" id="exercise-description"></p>
+      </div>
+
+      <div class="progress-bar-wrap">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+      <p class="step-count" id="step-count"></p>
+
+      <div class="prompt-card visible" id="step-card">
+        <p class="prompt-text" id="step-instruction"></p>
+        <div class="timer-ring-wrap">
+          <svg class="timer-ring" viewBox="0 0 64 64" aria-hidden="true">
+            <circle class="ring-track" cx="32" cy="32" r="28" />
+            <circle class="ring-fill" id="ring-fill" cx="32" cy="32" r="28" />
+          </svg>
+          <span class="timer-number" id="timer-number"></span>
+        </div>
+      </div>
+
+      <div class="exercise-controls">
+        <button class="btn-secondary" id="pause-btn">pause</button>
+        <button class="btn-secondary" id="skip-btn">skip step →</button>
+      </div>
+    </div>
+
+    <!-- ── Completion state ── -->
+    <div id="completion-view" style="display:none;">
+      <header>
+        <p class="eyebrow">you did it</p>
+        <h2 class="completion-title">Well done.</h2>
+        <p class="subtitle completion-subtitle">Take a moment before moving on.<br>Notice how you feel right now.</p>
+      </header>
+      <div class="completion-actions">
+        <button class="btn-primary" id="another-exercise-btn">try another practice</button>
+        <a href="index.html" class="btn-secondary nav-link">back to journal prompts</a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>
+      <a href="index.html" class="nav-link">journal prompts</a>
+      &nbsp;·&nbsp;
+      <span>grounding</span>
+    </p>
+  </footer>
+
+  <script src="grounding.js"></script>
+</body>
+</html>

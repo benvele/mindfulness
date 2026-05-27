@@ -1,0 +1,111 @@
+[
+  {
+    "id": "box-breathing",
+    "title": "Box Breathing",
+    "category": "Breathing",
+    "description": "A simple breathing pattern to calm the nervous system.",
+    "steps": [
+      { "instruction": "Find a comfortable position and gently close your eyes.", "duration": 8 },
+      { "instruction": "Inhale slowly through your nose.", "duration": 4 },
+      { "instruction": "Hold your breath gently.", "duration": 4 },
+      { "instruction": "Exhale slowly through your mouth.", "duration": 4 },
+      { "instruction": "Hold at the bottom, empty and still.", "duration": 4 },
+      { "instruction": "Inhale slowly through your nose.", "duration": 4 },
+      { "instruction": "Hold your breath gently.", "duration": 4 },
+      { "instruction": "Exhale slowly through your mouth.", "duration": 4 },
+      { "instruction": "Hold at the bottom, empty and still.", "duration": 4 },
+      { "instruction": "Inhale slowly through your nose.", "duration": 4 },
+      { "instruction": "Hold your breath gently.", "duration": 4 },
+      { "instruction": "Exhale slowly through your mouth.", "duration": 4 },
+      { "instruction": "Hold at the bottom, empty and still.", "duration": 4 },
+      { "instruction": "Let your breath return to its natural rhythm. Notice how you feel.", "duration": 10 }
+    ]
+  },
+  {
+    "id": "4-7-8-breathing",
+    "title": "4-7-8 Breathing",
+    "category": "Breathing",
+    "description": "A calming breath pattern that encourages deep rest.",
+    "steps": [
+      { "instruction": "Sit comfortably with your back supported. Let your shoulders drop.", "duration": 8 },
+      { "instruction": "Exhale completely through your mouth.", "duration": 5 },
+      { "instruction": "Inhale quietly through your nose.", "duration": 4 },
+      { "instruction": "Hold your breath — let your body be still.", "duration": 7 },
+      { "instruction": "Exhale completely through your mouth.", "duration": 8 },
+      { "instruction": "Inhale quietly through your nose.", "duration": 4 },
+      { "instruction": "Hold your breath — let your body be still.", "duration": 7 },
+      { "instruction": "Exhale completely through your mouth.", "duration": 8 },
+      { "instruction": "Inhale quietly through your nose.", "duration": 4 },
+      { "instruction": "Hold your breath — let your body be still.", "duration": 7 },
+      { "instruction": "Exhale completely through your mouth.", "duration": 8 },
+      { "instruction": "Return to natural breathing. Rest here for a moment.", "duration": 10 }
+    ]
+  },
+  {
+    "id": "body-scan",
+    "title": "Body Scan",
+    "category": "Body Scan",
+    "description": "A slow, gentle scan from head to toe to release held tension.",
+    "steps": [
+      { "instruction": "Lie down or sit comfortably. Close your eyes and take a slow breath.", "duration": 10 },
+      { "instruction": "Bring your attention to the top of your head. Notice any sensation — warmth, tingling, tension — without judgment.", "duration": 15 },
+      { "instruction": "Soften your forehead, your eyes, your jaw. Let your face relax completely.", "duration": 12 },
+      { "instruction": "Move your awareness to your neck and shoulders. Breathe into any tightness you find there.", "duration": 15 },
+      { "instruction": "Notice your chest and the slow rise and fall of each breath.", "duration": 12 },
+      { "instruction": "Bring attention to your arms, your hands, the tips of your fingers.", "duration": 12 },
+      { "instruction": "Move down to your belly. Notice how it expands and contracts.", "duration": 12 },
+      { "instruction": "Bring awareness to your lower back and hips. Let them feel heavy and supported.", "duration": 12 },
+      { "instruction": "Move your attention to your legs — thighs, knees, calves.", "duration": 12 },
+      { "instruction": "Notice your feet and toes. Feel the weight of your whole body, grounded and at rest.", "duration": 15 },
+      { "instruction": "Take a full breath in and let it go. Gently bring your awareness back to the room.", "duration": 12 }
+    ]
+  },
+  {
+    "id": "5-4-3-2-1",
+    "title": "5-4-3-2-1 Senses",
+    "category": "5-4-3-2-1 Senses",
+    "description": "Anchor yourself to the present moment through each of your senses.",
+    "steps": [
+      { "instruction": "Take a slow breath and let your eyes soften. You are here, right now.", "duration": 8 },
+      { "instruction": "Notice 5 things you can see. Look around slowly — shapes, colors, light.", "duration": 20 },
+      { "instruction": "Notice 4 things you can physically feel. The weight of your body, the texture of your clothing.", "duration": 18 },
+      { "instruction": "Notice 3 things you can hear. Let sounds come to you without searching.", "duration": 18 },
+      { "instruction": "Notice 2 things you can smell. Even faint or familiar scents.", "duration": 15 },
+      { "instruction": "Notice 1 thing you can taste. Whatever is present on your tongue right now.", "duration": 12 },
+      { "instruction": "Take a slow breath. You are present. You are here.", "duration": 10 }
+    ]
+  },
+  {
+    "id": "gentle-movement",
+    "title": "Gentle Movement",
+    "category": "Mindful Movement",
+    "description": "Simple, unhurried movements to reconnect with your body.",
+    "steps": [
+      { "instruction": "Sit or stand comfortably. Take a breath and arrive here.", "duration": 8 },
+      { "instruction": "Slowly roll your shoulders back, three times. Move without rushing.", "duration": 12 },
+      { "instruction": "Gently tilt your right ear toward your right shoulder. Hold and breathe.", "duration": 10 },
+      { "instruction": "Bring your head back to center, then tilt left. Hold and breathe.", "duration": 10 },
+      { "instruction": "Interlace your fingers and stretch your arms overhead. Breathe into the length.", "duration": 10 },
+      { "instruction": "Let your arms float down. Roll your wrists slowly in both directions.", "duration": 12 },
+      { "instruction": "Place both feet flat on the floor. Press them down gently and feel the ground.", "duration": 10 },
+      { "instruction": "Take three slow breaths. Notice how your body feels now compared to when you started.", "duration": 15 }
+    ]
+  },
+  {
+    "id": "safe-place",
+    "title": "Safe Place Visualization",
+    "category": "Visualization",
+    "description": "Guided imagery to find calm within a place that feels wholly your own.",
+    "steps": [
+      { "instruction": "Close your eyes and take three slow, deep breaths.", "duration": 12 },
+      { "instruction": "Begin to imagine a place where you feel completely safe and at ease. It can be real or imagined.", "duration": 12 },
+      { "instruction": "Notice what you see there. The colors, the light, the shapes around you.", "duration": 15 },
+      { "instruction": "What sounds are present in this place? Let them settle around you.", "duration": 12 },
+      { "instruction": "What does the air feel like? The temperature, any breeze or stillness.", "duration": 12 },
+      { "instruction": "Notice how your body feels in this place. Let yourself rest here fully.", "duration": 15 },
+      { "instruction": "Know that this place is always available to you. You can return whenever you need.", "duration": 12 },
+      { "instruction": "Begin to gently bring your awareness back. Wiggle your fingers. Take a slow breath.", "duration": 12 },
+      { "instruction": "Open your eyes when you're ready. Carry this feeling with you.", "duration": 10 }
+    ]
+  }
+]

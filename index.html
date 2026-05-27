@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Still Pages — Journal Prompts</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain"></div>
+
+  <main>
+    <header>
+      <p class="eyebrow">a quiet moment for</p>
+      <h1>Still Pages</h1>
+      <p class="subtitle">Choose a theme, or let the page choose for you.</p>
+    </header>
+
+    <section class="controls">
+      <div class="select-wrapper">
+        <select id="category-select" aria-label="Select a category">
+          <option value="random">— any topic —</option>
+        </select>
+        <span class="select-arrow">↓</span>
+      </div>
+      <button id="get-prompt-btn" class="btn-primary">Find a prompt</button>
+    </section>
+
+    <section class="prompt-section" id="prompt-section" aria-live="polite">
+      <div class="prompt-card" id="prompt-card">
+        <span class="prompt-category" id="prompt-category"></span>
+        <p class="prompt-text" id="prompt-text"></p>
+      </div>
+      <button class="btn-secondary" id="another-btn" style="display:none;">try another</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      <span>journal prompts</span>
+      &nbsp;·&nbsp;
+      <a href="grounding.html" class="nav-link">grounding</a>
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
