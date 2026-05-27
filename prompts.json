@@ -1,0 +1,20 @@
+[
+  { "category": "Gratitude", "prompt": "What is something small that brought you comfort today?" },
+  { "category": "Gratitude", "prompt": "Who in your life are you quietly thankful for, and why?" },
+  { "category": "Gratitude", "prompt": "Describe a moment from the past week that you want to remember." },
+  { "category": "Growth", "prompt": "What is something you believed a year ago that you no longer do?" },
+  { "category": "Growth", "prompt": "Where are you being too hard on yourself?" },
+  { "category": "Growth", "prompt": "What would you do differently if you weren't afraid of failing?" },
+  { "category": "Reflection", "prompt": "What has been weighing on your mind lately, and why?" },
+  { "category": "Reflection", "prompt": "When did you last feel truly at peace? What were the conditions?" },
+  { "category": "Reflection", "prompt": "What does your ideal ordinary day look like?" },
+  { "category": "Creativity", "prompt": "If your current mood were a weather pattern, what would it be?" },
+  { "category": "Creativity", "prompt": "Describe your life right now as if it were the opening line of a novel." },
+  { "category": "Creativity", "prompt": "What color best represents how you feel this week, and why?" },
+  { "category": "Relationships", "prompt": "What do you wish someone in your life understood about you?" },
+  { "category": "Relationships", "prompt": "Describe a conversation you keep putting off. What's stopping you?" },
+  { "category": "Relationships", "prompt": "Who do you show up best for, and what does that reveal about you?" },
+  { "category": "Mindfulness", "prompt": "What sensations are you aware of in your body right now?" },
+  { "category": "Mindfulness", "prompt": "What thought keeps returning to you today? Just notice it — don't judge it." },
+  { "category": "Mindfulness", "prompt": "What would it feel like to let go of one expectation you're holding?" }
+]
